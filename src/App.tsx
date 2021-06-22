@@ -1,24 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Button } from 'C:/Users/Airto/OneDrive/Área de Trabalho/Web Apps/NLW - FrontEnd Com React/LetMeAsk/src/components/Button'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <h1>Hello World</h1>
+    <Button id="But1" other_id="But2" /> 
+    <Button id="But2" other_id="But1" />
     </div>
   );
 }
