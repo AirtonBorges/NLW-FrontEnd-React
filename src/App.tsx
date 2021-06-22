@@ -1,4 +1,4 @@
-import { Button } from 'C:/Users/Airto/OneDrive/Área de Trabalho/Web Apps/NLW - FrontEnd Com React/LetMeAsk/src/components/Button'
+import { Button } from '../src/components/Button'
 
 function App() {
   return (
