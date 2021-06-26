@@ -4,6 +4,8 @@ import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg'
 import googleIconImg from '../assets/images/google-icon.svg'
 
+import { useAuthContext } from '../Hooks/useAuthContext'
+
 import { Button } from '../components/Button'
 
 import '../styles/auth.scss'
@@ -12,9 +14,13 @@ import '../styles/global.scss'
 
 export function Home() {
   const history = useHistory();
+  const AuthContext = useAuthContext();
+  const { signInWithGoogle } = AuthContext
 
-  function goToNewPage() {
-    history.push("/rooms/new");
+  async function HandleLogin() {
+    await signInWithGoogle();
+    
+    history.push("/rooms/new")
   }
 
   return (
@@ -27,7 +33,7 @@ export function Home() {
       <main>
         <div className="main-content">
           <img src={ logoImg } alt="Logo" />
-          <button onClick={ goToNewPage } className="create-room">
+          <button onClick={ HandleLogin } className="create-room">
             <img src={ googleIconImg } alt="Criar sala com Google" />
             Crie sua sala com o Google 
           </button>
