@@ -43,12 +43,13 @@ export function Room() {
   const { user, signInWithGoogle } = useAuthContext()
 
   const roomId = useParams<RoomParams>().id;
-  const roomRef = database.ref(`rooms/${ roomId }`);
-  
+
   const [ title, setTittle ] = useState('');
   const [ questions, setQuestions ] = useState<Question[]>([]) 
 
   useEffect(() => {
+    const roomRef = database.ref(`rooms/${ roomId }`);
+  
     roomRef.on('value', room => {
       if ( !room.exists() ) {
         throw new Error("Room Does Not exist")
@@ -142,6 +143,7 @@ export function Room() {
             </Button>
           </div>
         </form>
+        { questions }
       </main>
     </div>
   )
