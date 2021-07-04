@@ -51,12 +51,9 @@ export function Room() {
     const roomRef = database.ref(`rooms/${ roomId }`);
   
     roomRef.on('value', room => {
-      if ( !room.exists() ) {
-        throw new Error("Room Does Not exist")
-      }
 
-      const databaseRoom = room.val()
-      const databaseQuestions:FirebaseQuestions = databaseRoom.questions;
+      const databaseRoom = room.val();
+      const databaseQuestions:FirebaseQuestions = databaseRoom.questions || {};
 
       const parsedQuestions = Object.entries(databaseQuestions).map(([key, value]) => {
         return {
