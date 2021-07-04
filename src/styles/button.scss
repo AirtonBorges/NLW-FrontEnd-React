@@ -1,11 +1,12 @@
-Button {
-  margin-top:64px;
+.special-button {
   height: 58px;
   border-radius: 8px;
   font-weight: 500;
   
   background: #835afd;
   color: #fff;
+  
+  padding: 0 32px;
   
   display: flex;
   justify-content: center;
@@ -21,7 +22,7 @@ Button {
   }
 
   &:disabled {
-    opacity: 8.6;
+    opacity: 0.2;
     cursor: not-allowed;
   }
 }
