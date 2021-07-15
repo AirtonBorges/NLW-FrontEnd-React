@@ -13,6 +13,20 @@
       img {
         max-height: 45px;
       }
+
+      >div {
+        display: flex;
+
+        .room-code {
+          justify-self: left;
+        }
+        
+        gap: 14px;
+
+        >button {
+          height: 40px;
+        }
+      }
     }
   }
 
@@ -94,6 +108,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      padding-top: 50px;
     }
   }
 }
