@@ -6,7 +6,7 @@
 
 ## LetMeAsk
 
-![Main View](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0fa9ea13-5263-4ff0-9e8b-4ee8670cd86c%2FUntitled.png?table=block&id=0f51b60a-572e-4ca1-9e1c-2ff4bb0607c6&spaceId=6f8b417e-567d-40d9-9d5e-2fd53c5b76d9&width=3830&userId=7ce365fc-df81-4716-b107-c7590294fa98&cache=v2)
+![Main View](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0fa9ea13-5263-4ff0-9e8b-4ee8670cd86c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210723%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210723T211959Z&X-Amz-Expires=86400&X-Amz-Signature=1db914d5a24e565434eb07626743a026f0bcdf2ce83be03aae37767926a139fe&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 —> [FIGMA](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask?node-id=0%3A1)
 
@@ -22,11 +22,11 @@
 
 - Existem duas views: A do Usuário, onde pessoas podem enviar perguntas, e curtir as perguntas que acharem mais interessantes
 
-    ![User View](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd205be73-6441-479f-ab47-e16efb29c4c9%2FUntitled.png?table=block&id=96c6ffe6-2081-44fd-aeab-475e91b32773&spaceId=6f8b417e-567d-40d9-9d5e-2fd53c5b76d9&width=3830&userId=7ce365fc-df81-4716-b107-c7590294fa98&cache=v2)
+    ![User View](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d205be73-6441-479f-ab47-e16efb29c4c9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210723%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210723T212002Z&X-Amz-Expires=86400&X-Amz-Signature=77a238b4d501b7720e981c51a9cb8dc4261229437a78cf1b5ccab9e125ad4dbd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 - E a visão do Admin, onde ele pode administrar a sala enquanto responde as perguntas, conseguindo marca-las como lidas, deixar uma pergunta em destaque e apagar as perguntas
 
-    ![AdminView](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc19af1ce-ea83-49ca-b678-62f3aec1b540%2FUntitled.png?table=block&id=f86a907e-2b7d-4889-9d17-7d6ba9a672fb&spaceId=6f8b417e-567d-40d9-9d5e-2fd53c5b76d9&width=3830&userId=7ce365fc-df81-4716-b107-c7590294fa98&cache=v2)
+    ![AdminView](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c19af1ce-ea83-49ca-b678-62f3aec1b540/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210723%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210723T212005Z&X-Amz-Expires=86400&X-Amz-Signature=0e9ca638080fb78d421adce74d76bf16303258bb4df32f1dc7854a0a48a6986c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ## Minha experiência
 
