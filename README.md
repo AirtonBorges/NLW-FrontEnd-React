@@ -6,7 +6,7 @@
 
 ## LetMeAsk
 
-![Main View](images/mainView)
+![Main View](images/mainView.png)
 
 —> [FIGMA](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask?node-id=0%3A1)
 
@@ -22,11 +22,11 @@
 
 - Existem duas views: A do Usuário, onde pessoas podem enviar perguntas, e curtir as perguntas que acharem mais interessantes
 
-    ![User View](images/userView)
+    ![User View](images/userView.png)
 
 - E a visão do Admin, onde ele pode administrar a sala enquanto responde as perguntas, conseguindo marca-las como lidas, deixar uma pergunta em destaque e apagar as perguntas
 
-    ![AdminView](images/adminView)
+    ![AdminView](images/adminView.png)
 
 ## Minha experiência
 
